@@ -11,3 +11,27 @@ body {
   max-height: 100vh;
   object-fit: cover;
 }
+.w3-dropdown-hover .w3-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.w3-dropdown-content {
+  background-color: #000;
+}
+
+.w3-dropdown-content .w3-bar-item {
+  color: #fff;
+}
+
+.w3-dropdown-content .w3-bar-item:hover {
+  background-color: #333;
+}
+
+/* Style for the images in the slideshow */
+.mySlides img {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: cover;
+}
