@@ -28,10 +28,4 @@ body {
   background-color: #333;
 }
 
-/* Style for the images in the slideshow */
-.mySlides img {
-  width: 100%;
-  height: auto;
-  max-height: 100vh;
-  object-fit: cover;
-}
+
