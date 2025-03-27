@@ -4,29 +4,46 @@
   <title>South African DJ Hub</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <img src="2.png" alt="Logo" class="w3-bar-item w3-button w3-padding-large" style="height:60px;">
-    <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-large">Menu <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#band" class="w3-bar-item w3-button">About</a>
-        <a href="#tour" class="w3-bar-item w3-button">Artist</a>
-        <a href="#contact" class="w3-bar-item w3-button">Blog</a>
-        <a href="#events" class="w3-bar-item w3-button">Events</a>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="2.png" alt="Logo" style="height:60px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#band">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artist
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#scotts-maphuma">Scotts Maphuma</a>
+          <a class="dropdown-item" href="#babalwa-m">Babalwa M</a>
+          <a class="dropdown-item" href="#mellow-sleazy">Mellow & Sleazy</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#events">Events</a>
+      </li>
+    </ul>
   </div>
-</div>
+</nav>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
