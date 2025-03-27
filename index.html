@@ -41,7 +41,6 @@
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
-
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
     <img src="https://unorthodoxreviews.com/wp-content/uploads/2022/05/Mellow-Sleazy.jpg" style="width:100%" alt="Mellow & Sleazy">
@@ -69,7 +68,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <!-- Slideshow Script -->
+
+<!-- Slideshow Script -->
 <script>
 var slideIndex = 0;
 showSlides();
@@ -81,7 +81,7 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
   slideIndex++;
- Index > slides.length) {slideIndex = 1}    
+  if.length) {slideIndex = 1}    
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
