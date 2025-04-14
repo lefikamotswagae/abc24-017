@@ -21,9 +21,9 @@
 .w3-dropdown-content .w3-bar-item {
   color: #fff;
 .w3-third img {
-    width: 100%; /* Make images take up the full width of their container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure images cover the specified area */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 }
@@ -50,5 +50,22 @@
     height: 200px; 
     object-fit: cover; 
 }
+
+.w3-container.w3-content.w3-padding-64 {
+    max-width: 800px;
+}
+
+.w3-row-padding {
+    margin: 0 -16px;
+}
+
+.w3-third {
+    margin-bottom: 16px;
+}
+
+.w3-third img {
+    width: 100%;
+}
+
 
 
