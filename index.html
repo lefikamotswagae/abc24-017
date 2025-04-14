@@ -4,7 +4,7 @@
   <title>South African DJ Hub</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <!-- Removed W3.CSS link -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -12,46 +12,46 @@
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <img src="2.png" alt="Logo" class="w3-bar-item w3-button w3-padding-large" style="height:60px;">
-    <div class="w3-dropdown-hover">
-      <button class="w3-button w3-padding-large">Menu <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#band" class="w3-bar-item w3-button">About</a>
-        <a href="#tour" class="w3-bar-item w3-button">Artist</a>
-        <a href="#contact" class="w3-bar-item w3-button">Blog</a>
-        <a href="#events" class="w3-bar-item w3-button">Events</a>
+<div class="top-bar">
+  <div class="bar black card">
+    <img src="2.png" alt="Logo" class="bar-item button padding-large logo">
+    <div class="dropdown-hover">
+      <button class="button padding-large">Menu <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content bar-block card-4">
+        <a href="#" class="bar-item button">Home</a>
+        href="#band" class="bar-item button">About</a>
+        <a href="#tour" class="bar-item button">Artist</a>
+        <a href="#contact" class="bar-item button">Blog</a>
+        <a href="#events" class="bar-item button">Events</a>
       </div>
     </div>
-    <form class="w3-bar-item w3-right" onsubmit="return searchPage()">
-      <input type="text" id="searchInput" class="w3-input w3-bar-item" placeholder="Search...">
-      <button type="submit" class="w3-button w3-bar-item w3-black"><i class="fa fa-search"></i></button>
+    <form class="bar-item right" onsubmit="return searchPage()">
+      <input type="text" id="searchInput" class="input bar-item" placeholder="Search...">
+      <button type="submit" class="button bar-item black"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="content">
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="mello and sleazy.jpg" style="width:100%" alt="Mellow & Sleazy">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+  <div class="mySlides display-container center">
+    <img src="mello and sleazy.jpg" class="slide-image" alt="Mellow & Sleazy">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
       <h3>Mellow & Sleazy</h3>
       <p><b>Phemelo Sefanyetse and Olebogeng Kwanaite</b></p>   
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="babalwa m.jpg" style="width:100%" alt="Babalwa M">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+  <div class="mySlides display-container center">
+    <img src="babalwa m.jpg" class="slide-image" alt="Babalwa M">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
       <h3>Babalwa M</h3>  
       <p><b>Babalwa Mavuso</b></p>  
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="scoots.jpg" style="width:100%" alt="Scotts Maphuma">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+  <div class="mySlides display-container center">
+    <img src="scoots.jpg" class="slide-image" alt="Scotts Maphuma">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
       <h3>Scotts Maphuma</h3>
       <p><b>Mpho Lebajoa</b></p>    
     </div>
@@ -104,6 +104,31 @@ function searchPage() {
 }
 </script>
 
+<!-- The Band Section -->
+<div class="container content center padding-64" style="max-width:800px" id="band">
+  <h2 class="wide">Our Artist</h2>
+  <p class="opacity"><i>We love music</i></p>
+  <p class="justify">🎶 Welcome to SAdjHUB 🎶
+Your Ultimate Plug for All Things Amapiano!
+
+Step into the rhythm and feel the vibe — SAdjHUB is your go-to destination for everything about South Africa’s hottest Amapiano artists: Babalwa, Mellow & Sleazy, and Scotts Maphuma. From behind-the-beat stories to the latest drops, we’ve got the juice, the grooves, and the culture — all in one spot.
+Whether you're a day-one fan or just discovering the sound, we’re here to keep your playlist fresh and your heart in sync with the beat. Dive in, explore, and vibe out 🕺💃</p>
+  <div class="row padding-32">
+    <div class="third">
+      <p>Babalwa M</p>
+      <img src="https://theyanos.co.za/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-20-at-14.49.52_546c2c13.jpg" class="round margin-bottom" alt="Babalwa M">
+    </div>
+    <div class="third">
+      <p>Name</p>
+      <img src="https://cdn.24.co.za/files/Cms/General/d/12571/22f233c05297437da79b5940049883b3.jpg" class="round margin-bottom" alt="SCotts">
+    </div>
+    <div class="third">
+      <p>Name</p>
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/2c/d6/bd/2cd6bdd0-e9b8-3b49-7def-4aa3f62b4983/bf2f3436-33cf-4f4f-a824-472fc6168506_ami-identity-ebc0ca0e905ce4103ad29912bc8d6ae0-2023-07-12T09-30-24.132Z_cropped.png/486x486bb.png" class="round" alt="M&S">
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
+
