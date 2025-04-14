@@ -4,7 +4,7 @@
   <title>South African DJ Hub</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Removed W3.CSS link -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -12,46 +12,46 @@
 <body>
 
 <!-- Navbar -->
-<div class="top-bar">
-  <div class="bar black card">
-    <img src="2.png" alt="Logo" class="bar-item button padding-large logo">
-    <div class="dropdown-hover">
-      <button class="button padding-large">Menu <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content bar-block card-4">
-        <a href="#" class="bar-item button">Home</a>
-        <a href="#band" class="bar-item button">About</a>
-        <a href="#tour" class="bar-item button">Artist</a>
-        <a href="#contact" class="bar-item button">Blog</a>
-        <a href="#events" class="bar-item button">Events</a>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <img src="2.png" alt="Logo" class="w3-bar-item w3-button w3-padding-large" style="height:60px;">
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-large">Menu <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#band" class="w3-bar-item w3-button">About</a>
+        <a href="#tour" class="w3-bar-item w3-button">Artist</a>
+        <a href="#contact" class="w3-bar-item w3-button">Blog</a>
+        <a href="#events" class="w3-bar-item w3-button">Events</a>
       </div>
     </div>
-    <form class="bar-item right" onsubmit="return searchPage()">
-      <input type="text" id="searchInput" class="input bar-item" placeholder="Search...">
-      <button type="submit" class="button bar-item black"><i class="fa fa-search"></i></button>
+    <form class="w3-bar-item w3-right" onsubmit="return searchPage()">
+      <input type="text" id="searchInput" class="w3-input w3-bar-item" placeholder="Search...">
+      <button type="submit" class="w3-button w3-bar-item w3-black"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>
 
 <!-- Page content -->
-<div class="content" style="max-width:2000px;margin-top:46px">
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides display-container center">
-    <img src="mello and sleazy.jpg" class="slide-image" alt="Mellow & Sleazy">
-    <div class="display-bottommiddle container text-white padding-32 hide-small">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="mello and sleazy.jpg" style="width:100%" alt="Mellow & Sleazy">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Mellow & Sleazy</h3>
       <p><b>Phemelo Sefanyetse and Olebogeng Kwanaite</b></p>   
     </div>
   </div>
-  <div class="mySlides display-container center">
-    <img src="babalwa m.jpg" class="slide-image" alt="Babalwa M">
-    <div class="display-bottommiddle container text-white padding-32 hide-small">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="babalwa m.jpg" style="width:100%" alt="Babalwa M">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Babalwa M</h3>  
       <p><b>Babalwa Mavuso</b></p>  
     </div>
   </div>
-  <div class="mySlides display-container center">
-    <img src="scoots.jpg" class="slide-image" alt="Scotts Maphuma">
-    <div class="display-bottommiddle container text-white padding-32 hide-small">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="scoots.jpg" style="width:100%" alt="Scotts Maphuma">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Scotts Maphuma</h3>
       <p><b>Mpho Lebajoa</b></p>    
     </div>
@@ -87,7 +87,9 @@ function searchPage() {
     window.location.href = "#band";
   } else if (input === "artist") {
     window.location.href = "#tour";
-  } else if (input === "blog") {
+  } else if (input === "blog") }
+  
+
     window.location.href = "#contact";
   } else if (input === "events") {
     window.location.href = "#events";
@@ -97,25 +99,35 @@ function searchPage() {
     window.location.href = "#babalwa-m";
   } else if (input === "mellow & sleazy") {
     window.location.href = "#mellow-sleazy";
-  } else {
+  } else }
     alert("Page not found");
   }
   return false; // Prevent form submission
 }
 </script>
-
-<!-- The Band Section -->
-<div class="container content center padding-64" style="max-width:800px" id="band">
-  <h2 class="wide">Our Artist</h2>
-  <p class="opacity"><i>We love music</i></p>
-  <p class="justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore margin-bottom" alt="Random Name">
-    </div>
-    <div class="third">
+  <!-- The Band Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <h2 class="w3-wide">Our Artist</h2>
+  <p class="w3-opacity"><i>We love music</i></p>
+  <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
       <p>Name</p>
-      <img src="/w3images/bandmember.jpg" class="round" alt="Random Name">
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name">
+    </div>
+    <div class="w3-third">
+      <p>Name</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name">
+    </div>
+    <div class="w3-third">
+      <p>Name</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name">
     </div>
   </div>
 </div>
 
+
+
 </body>
-</html>
