@@ -20,6 +20,12 @@
 
 .w3-dropdown-content .w3-bar-item {
   color: #fff;
+.w3-third img {
+    width: 100%; /* Make images take up the full width of their container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the specified area */
+}
+
 }
 
 .w3-dropdown-content .w3-bar-item:hover {
