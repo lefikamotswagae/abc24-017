@@ -33,8 +33,9 @@
 }
 
 .w3-third img {
-    width: 50%; 
-    height: 200px; 
-    object-fit: none; 
+    width: 100%; /* Make images take up the full width of their container */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images cover the specified area */
 }
+
 
