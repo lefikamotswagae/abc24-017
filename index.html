@@ -35,32 +35,34 @@
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="mello and sleazy.jpg" style="width:100%" alt="Mellow & Sleazy">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Mellow & Sleazy</h3>
-      <p><b>Phemelo Sefanyetse and Olebogeng Kwanaite</b></p>   
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="babalwa m.jpg" style="width:100%" alt="Babalwa M">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Babalwa M</h3>  
-      <p><b>Babalwa Mavuso</b></p>  
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="scoots.jpg" style="width:100%" alt="Scotts Maphuma">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Scotts Maphuma</h3>
-      <p><b>Mpho Lebajoa</b></p>    
-    </div>
-  </div>
+  
+<div class="mySlides w3-display-container w3-center">
+  <img src="mello and sleazy.jpg" style="width:100%" alt="Mellow & Sleazy">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Mellow & Sleazy</h3>
+    <p><b>Phemelo Sefanyetse and Olebogeng Kwanaite</b></p>   
+  </div>
 </div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="babalwa m.jpg" style="width:100%" alt="Babalwa M">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Babalwa M</h3>  
+    <p><b>Babalwa Mavuso</b></p>  
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="scoots.jpg" style="width:100%" alt="Scotts Maphuma">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Scotts Maphuma</h3>
+    <p><b>Mpho Lebajoa</b></p>    
+  </div>
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 <!-- Slideshow Script -->
 <script>
@@ -68,43 +70,42 @@ var slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
 function searchPage() {
-  var input = document.getElementById("searchInput").value.toLowerCase();
-  if (input === "home") {
-    window.location.href = "#";
-  } else if (input === "about") {
-    window.location.href = "#band";
-  } else if (input === "artist") {
-    window.location.href = "#tour";
-  } else if (input === "blog") }
-  
-
-    window.location.href = "#contact";
-  } else if (input === "events") {
-    window.location.href = "#events";
-  } else if (input === "scotts maphuma") {
-    window.location.href = "#scotts-maphuma";
-  } else if (input === "babalwa m") {
-    window.location.href = "#babalwa-m";
-  } else if (input === "mellow & sleazy") {
-    window.location.href = "#mellow-sleazy";
-  } else }
-    alert("Page not found");
-  }
-  return false; // Prevent form submission
+  var input = document.getElementById("searchInput").value.toLowerCase();
+  if (input === "home") {
+    window.location.href = "#";
+  } else if (input === "about") {
+    window.location.href = "#band";
+  } else if (input === "artist") {
+    window.location.href = "#tour";
+  } else if (input === "blog") {
+    window.location.href = "#contact";
+  } else if (input === "events") {
+    window.location.href = "#events";
+  } else if (input === "scotts maphuma") {
+    window.location.href = "#scotts-maphuma";
+  } else if (input === "babalwa m") {
+    window.location.href = "#babalwa-m";
+  } else if (input === "mellow & sleazy") {
+    window.location.href = "#mellow-sleazy";
+  } else {
+    alert("Page not found");
+  }
+  return false; // Prevent form submission
 }
 </script>
+
     <!-- The artist Section -->
     <div class="content w3-container" id="band">
         <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
