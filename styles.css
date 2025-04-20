@@ -55,6 +55,21 @@ main {
     background-color: #000;
 }
 
+.play-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: #cc0000;
+}
+
 .black-bg {
     background-color: #000;
     color: #fff;
