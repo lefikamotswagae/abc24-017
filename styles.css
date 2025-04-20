@@ -55,21 +55,6 @@ main {
     background-color: #000;
 }
 
-.play-button {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.play-button:hover {
-    background-color: #cc0000;
-}
-
 .black-bg {
     background-color: #000;
     color: #fff;
@@ -78,4 +63,61 @@ main {
 .white-bg {
     background-color: #fff;
     color: #000;
+}
+
+#blog-header {
+    text-align: center;
+    padding: 20px;
+}
+
+#blog-header h2 {
+    font-size: 2em;
+}
+
+#blog-header p {
+    font-size: 1.2em;
+}
+
+#blog-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.w3-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.w3-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.w3-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.w3-card p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.w3-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.w3-button:hover {
+    background-color: #333;
 }
