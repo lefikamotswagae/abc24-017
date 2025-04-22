@@ -126,3 +126,13 @@ main {
 .w3-button:hover {
  background-color: #333;
 }
+
+footer {
+            background-color: #000000.;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
