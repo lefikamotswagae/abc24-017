@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="South African (1) (1).ico" type="image/x-icon">
   <link rel="shortcut icon" href="South African (1) (1).ico" type="image/x-icon">
 </head>
 <body>
@@ -18,11 +20,11 @@
     <div class="w3-dropdown-hover">
       <button class="w3-button w3-padding-large">Menu <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="index.html" class="w3-bar-item w3-button">Home</a>
-        <a href="about.html" class="w3-bar-item w3-button">About</a>
-        <a href="artist.html" class="w3-bar-item w3-button">Artist</a>
-        <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
-        <a href="events.html" class="w3-bar-item w3-button">Events</a>
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#band" class="w3-bar-item w3-button">About</a>
+        <a href="#tour" class="w3-bar-item w3-button">Artist</a>
+        <a href="#contact" class="w3-bar-item w3-button">Blog</a>
+        <a href="#events" class="w3-bar-item w3-button">Events</a>
       </div>
     </div>
     <form class="w3-bar-item w3-right" onsubmit="return searchPage()">
@@ -102,11 +104,28 @@
     </div>
   </div>
   
-  <!-- The Events Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64">
-      <h2 class="w3-wide w3-center">Events</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+<!-- The Events Section -->
+<div class="w3-black" id="tour">
+  <div class="w3-container w3-content w3-padding-64">
+    <h2 class="w3-wide w3-center">Events</h2>
+    <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">Rocking The Daises September <span class="w3-tag w3-red w3-margin
+    <ul class="w3-ul w3-border w3-white w3-text-grey">
+      <li class="w3-padding">Rocking The Daises September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+      <li class="w3-padding">Cotton Fest October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+      <li class="w3-padding">Balcony Live November <span class="w3-tag w3-green w3-margin-left">Available</span></li>
+        <div class="w3-container w3-white">
+          <p><b>Kunye Festival — Where the Beat Connects Us All</b></p>
+          <p class="w3-opacity">Sat 28 August 2025</p>
+          <p>Ready to experience music that moves your soul, not just your feet? Kunye Festival isn’t just an event — it’s a movement. A celebration of deep-rooted South African sounds, 
+            curated by the legendary Babalwa M, Kunye brings together the best of Afro-Tech, Deep House, and Amapiano in one unforgettable experience. 
+            The sun setting over scenic South African landscapes, A crowd vibing in perfect sync with the rhythm, World-class artists dropping spiritual, bass-heavy, next-level sets, That feeling of oneness... where the music speaks and you don’t need words,
+            If you’re serious about the culture, the sound, and the energy. Kunye is where you need to be.</p>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html
