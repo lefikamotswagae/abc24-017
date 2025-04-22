@@ -27,17 +27,14 @@ main {
 }
 
 .artist-section {
-  width: 300px;
-  margin: 20px;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-}
-
-.artist-section img {
-  width: 70px;
-  height: 50px;
-  border-radius: 10px;
 }
 
 .artist-section h2 {
@@ -79,4 +76,6 @@ main {
   font-size: 2em;
 }
 
-#blog
+#blog-header p {
+  font-size: 1.2em;
+}
