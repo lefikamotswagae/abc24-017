@@ -35,8 +35,8 @@ main {
 }
 
 .artist-section img {
-  width: 160px;
-  height: 90px;
+  width: 70px;
+  height: 50px;
   border-radius: 10px;
 }
 
@@ -79,4 +79,4 @@ main {
   font-size: 2em;
 }
 
-#blog-header-
+#blog
