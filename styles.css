@@ -28,7 +28,8 @@ main {
 
 .artist-section {
   width: 100%;
-  height: 500px;
+  height: auto;
+  min-height: 500px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
