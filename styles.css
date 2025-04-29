@@ -69,6 +69,7 @@ main {
   color: #000;
 }
 
+/* Blog Header Styling */
 #blog-header {
   text-align: center;
   padding: 20px;
@@ -80,4 +81,38 @@ main {
 
 #blog-header p {
   font-size: 1.2em;
+}
+
+/* Make all blog cards the same height */
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.w3-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.w3-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Optional: helps spacing look nice */
+  height: 100%; /* ensures the card takes full height of the container */
+}
+
+/* Optional: If you want fixed card height */
+.w3-card.equal-height {
+  height: 550px; /* or whatever height fits your design */
+  overflow: hidden; /* This ensures long text doesn't overflow */
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 16px;
+  text-align: center;
 }
