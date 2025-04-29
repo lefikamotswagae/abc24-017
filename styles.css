@@ -26,27 +26,61 @@ main {
   justify-content: center;
 }
 
-.artist-section {
-  width: 100%;
-  height: auto;
-  min-height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
+/* Ensure all artist cards are the same height */
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.artist-section h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
+.w3-quarter {
+  display: flex;
+  flex-direction: column;
 }
 
-.artist-section p {
-  font-size: 1em;
+.w3-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures card takes full height of the container */
+}
+
+/* Optional: Fixed height for all artist cards */
+.w3-card.equal-height {
+  height: 500px; /* or any height that fits your design */
+  overflow: hidden; /* Ensures any overflowing content is hidden */
+}
+
+/* Styling for the links section */
+.links a {
+  display: block;
   margin: 5px 0;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.links a:hover {
+  background-color: #ddd;
+}
+
+/* Optional: Card Styling */
+.w3-card {
+  padding: 16px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 16px;
+  text-align: center;
 }
 
 .links a {
