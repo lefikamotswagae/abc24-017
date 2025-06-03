@@ -26,7 +26,6 @@ main {
   justify-content: center;
 }
 
-/* Ensure all artist cards are the same height */
 .equal-height {
   display: flex;
   flex-direction: column;
@@ -43,16 +42,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* Ensures card takes full height of the container */
+  height: 100%; 
 }
 
-/* Optional: Fixed height for all artist cards */
 .w3-card.equal-height {
-  height: 500px; /* or any height that fits your design */
-  overflow: hidden; /* Ensures any overflowing content is hidden */
+  height: 500px; 
+  overflow: hidden; 
 }
 
-/* Styling for the links section */
+
 .links a {
   display: block;
   margin: 5px 0;
@@ -67,7 +65,6 @@ main {
   background-color: #ddd;
 }
 
-/* Optional: Card Styling */
 .w3-card {
   padding: 16px;
   margin: 10px;
@@ -75,7 +72,6 @@ main {
   border-radius: 8px;
 }
 
-/* Footer styling */
 footer {
   background-color: #000;
   color: white;
@@ -103,7 +99,6 @@ footer {
   color: #000;
 }
 
-/* Blog Header Styling */
 #blog-header {
   text-align: center;
   padding: 20px;
@@ -117,7 +112,6 @@ footer {
   font-size: 1.2em;
 }
 
-/* Make all blog cards the same height */
 .equal-height {
   display: flex;
   flex-direction: column;
@@ -133,17 +127,15 @@ footer {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Optional: helps spacing look nice */
-  height: 100%; /* ensures the card takes full height of the container */
+  justify-content: space-between; 
+  height: 100%; 
 }
 
-/* Optional: If you want fixed card height */
 .w3-card.equal-height {
-  height: 550px; /* or whatever height fits your design */
-  overflow: hidden; /* This ensures long text doesn't overflow */
+  height: 550px; 
+  overflow: hidden; 
 }
 
-/* Styling for the footer */
 footer {
   background-color: #000;
   color: white;
